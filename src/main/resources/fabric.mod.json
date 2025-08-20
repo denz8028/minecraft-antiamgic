@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "antimagic",
+  "version": "${version}",
+  "name": "antimagic",
+  "description": "show text under magic with shift",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/antimagic/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "lovelinux.den4ik.antimagic.client.AntimagicDataGenerator"
+    ],
+    "client": [
+      "lovelinux.den4ik.antimagic.client.AntimagicClient"
+    ],
+    "main": [
+      "lovelinux.den4ik.antimagic.Antimagic"
+    ]
+  },
+  "mixins": [
+    "antimagic.mixins.json",
+    {
+      "config": "antimagic.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

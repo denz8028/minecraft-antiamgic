@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lovelinux.den4ik.antimagic.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
