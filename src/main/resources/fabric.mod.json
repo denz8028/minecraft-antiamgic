@@ -4,9 +4,12 @@
   "version": "${version}",
   "name": "antimagic",
   "description": "show text under magic with shift",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "authors": ["den4iklovelinux"],
+  "contact": {
+    "telegram": "t.me/den4iklovelinux",
+    "github": "denz8028"
+  },
+  "license": "zlib",
   "icon": "assets/antimagic/icon.png",
   "environment": "client",
   "entrypoints": {
