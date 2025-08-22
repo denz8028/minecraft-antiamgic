@@ -9,7 +9,5 @@
   "injectors": {
     "defaultRequire": 1
   },
-  "overwrites": {
-    "requireAnnotations": true
-  }
+  "refmap": "client-antimagic-refmap.json"
 }
